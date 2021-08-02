@@ -20,10 +20,10 @@ body {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    grid-gap: 15px;
+    grid-gap: 10px;
     margin-top: 40px;
-    margin-left: 35px;
-    margin-right: 35px;
+    margin-left: 20px;
+    margin-right: 20px;
 }
 
 .classDiv {
@@ -44,6 +44,8 @@ span {
     font-size: 70px;
     font-weight: bold;
     text-shadow: 0 2 10px black;
+    font-variant-numeric: tabular-nums;
+    width: 20px;
 }
 
 p {
@@ -53,6 +55,7 @@ p {
     font-weight: bold;
     text-shadow: 0 2 10px black;
     margin: 0;
+    width: 20px;
 }
 
 h1 {
