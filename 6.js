@@ -122,7 +122,7 @@ window.addEventListener('load', function(){
                         let divElement = document.createElement('div');
                         let img = document.createElement('img');
                         const h1Pobjeda = document.createElement('h1');
-                        h1Pobjeda.innerHTML = '<span>' + 'YOU ARE THE WINNER!' + '</span>';
+                        h1Pobjeda.innerHTML = '<span>' + 'You are the winner!' + '</span>';
                         img.src = 'bilder/smile.png';
                         naslov.innerHTML = '<h1>Win</h1>';
                         container.innerHTML = '';
