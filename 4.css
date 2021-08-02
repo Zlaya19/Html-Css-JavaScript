@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Changa:wght@200&display=swap');
+
+* {
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: 'Changa', sans-serif;
+}
+body {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: coral;
+}
+#container {
+    width: 400px;
+    height: 71.5vh;
+    background: coral;
+    border: 7px solid black;
+    border-radius: 40px;
+    border-top-left-radius: 14px;
+    border-top-right-radius: 14px;
+    box-shadow: 0 0 4px 1px black, 0 0 4px 1px black;
+}
+#output {
+    width:100%;
+    height: 18vh;
+    border: 2px solid black;
+    background: #222;
+    border-top-left-radius: 6px;
+    border-top-right-radius: 6px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:flex-end;
+    padding-top: 60px;
+    padding-right: 20px;
+    font-size: 20px;
+    
+}
+.btn {
+    width: 25%;
+    height: 13vh;
+    background: #333;
+    border:2px solid black;
+    font-size: 36px;
+    text-shadow: 0 0 5px black, 0 0 5px black;
+    color: white;
+    cursor: pointer;
+    box-shadow: 0px -6px 6px black;
+}
+.btn:hover {
+    background: #444;
+    text-shadow: 0 0 5px black, 0 0 5px black;
+    font-size: 37px;
+}
+#plus {
+    background: #d6c675;
+}
+#minus {
+    background: #beb068;
+}
+#puta {
+    background: #a69a5b;
+}
+#plus:hover {
+    background: #eedd82;
+    
+}
+#minus:hover {
+    background: #d6c675;
+}
+#puta:hover {
+    background: #beb068;
+}
+#dijeljenje:hover {
+    background: #a69a5b;
+}
+
+#btnX {
+    border-bottom-left-radius: 32px;
+    background: #5f5834;
+}
+#btnX:hover {
+    background: #776e41;
+}
+#dijeljenje {
+    border-bottom-right-radius: 32px;
+    background: #8e844e;
+}
+#btJed {
+    background: #776e41;
+}
+#btJed:hover {
+    background: #8e844e;
+}
