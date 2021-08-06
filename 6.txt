@@ -1,3 +1,0 @@
-Digitron nema tipku C za brisanje brojeva sa displeja.
-Dovoljno je kliknuti jednom na displej da bi se izbrisao ranije upisan sadrzaj.
-Na div koji predstavlja displej, povezan je click event koji obavlja funkciju remove.
